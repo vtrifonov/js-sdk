@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "kinvey-react-native-sdk-integration-tests",
+  "description": "Integration tests for kinvey-react-native-sdk.",
+  "version": "0.0.16",
+  "scripts": {
+    "pretest": "node scripts/test.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "~7.5.5",
+    "axios": "~0.19.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-inline-environment-variables": "~0.4.3",
+    "chai": "^4.2.0",
+    "dotenv": "~7.0.0",
+    "glob-promise": "~3.4.0",
+    "jest": "24.8.0",
+    "kinvey-react-native-sdk": "4.2.3",
+    "lodash": "^4.17.15",
+    "mock-async-storage": "^2.2.0",
+    "react": "^16.9.0",
+    "react-native": "^0.60.5",
+    "sinon": "^7.4.1",
+    "ts-jest": "^24.0.2"
+  }
+}

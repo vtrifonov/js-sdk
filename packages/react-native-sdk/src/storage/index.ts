@@ -7,7 +7,7 @@ export enum StorageProvider {
   Memory = 'Memory'
 }
 
-export function getStorageAdapter(storageProvider = StorageProvider.AsyncStorage) {
+export function getStorageAdapter(storageProvider = StorageProvider.Memory) {
   if (storageProvider === StorageProvider.Memory) {
     return Memory;
   }
